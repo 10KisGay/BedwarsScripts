@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/7Bitches/MeteorV4ForRoblox/main/NewMainScript.lua", true))()

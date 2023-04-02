@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Robotboyingg2/Liquid-bounce-beta/main/Liquid%20bounce%20beta"))()

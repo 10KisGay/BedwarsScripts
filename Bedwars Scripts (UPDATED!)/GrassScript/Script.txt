@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BBIsTheBestLUACoder/GrassClient/main/Script.lua", true))()

@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/7Seppuku7/Aspect-/main/Novaline%20V1.0.0?token=GHSAT0AAAAAAB46HI6XPW6Y4MEFRUZS2JUEZACV5OQ"))()
