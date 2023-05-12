@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/10KisGay/CyknFarms/main/Bedwars%20Scripts%20(UPDATED!)/HazelWare/Source.txt"))()
