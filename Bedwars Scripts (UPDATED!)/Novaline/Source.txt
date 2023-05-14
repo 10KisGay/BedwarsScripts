@@ -3,16 +3,16 @@ local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shle
 --MAIN
 local Window = Rayfield:CreateWindow({
    Name = "Novoline v 1.0.0",
-   LoadingTitle = "Novaline V1.0.0",
-   LoadingSubtitle = "leaked by Seppuku#6185",
+   LoadingTitle = "heh",
+   LoadingSubtitle = "by david/dev team",
    ConfigurationSaving = {
       Enabled = true,
-      FolderName = nil,
-      FileName = "NovolineLeak"
+      FolderName = nil, -- Create a custom folder for your hub/game
+      FileName = "Novoline"
    },
    Discord = {
       Enabled = false,
-      Invite = "Nigger", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD.
+      Invite = "NOVO", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD.
       RememberJoins = false -- Set this to false to make them join the discord every time they load it up
    },
    KeySystem = false, -- Set this to true to use our key system
@@ -35,10 +35,10 @@ Novoline["Tabs"] = {
     ["Animations"] = window:CreateTab("Animations")
 }
 Novoline["Sections"] = {
-    ["Combat"] = window["Tabs"]["Combat"]:CreateSection("Combat"),
-    ["Visuals"] = window["Tabs"]["Render"]:CreateSection("Visuals"),
-    ["Utility"] = window["Tabs"]["Utility"]:CreateSection("Utility"),
-    ["World"] = window["Tabs"]["World"]:CreateSection("World"),
+    ["Combat"] = HamWare["Tabs"]["Combat"]:CreateSection("Combat"),
+    ["Visuals"] = HamWare["Tabs"]["Render"]:CreateSection("Visuals"),
+    ["Utility"] = HamWare["Tabs"]["Utility"]:CreateSection("Utility"),
+    ["World"] = HamWare["Tabs"]["World"]:CreateSection("World"),
     ["Animations"] = HamWare["Tabs"]["Exploits"]:CreateSection("Animations")
 }
 Novoline["Library"] = library
@@ -569,3 +569,10 @@ runcode(function()
         end
     })
 end)
+
+if not shared["Novoline"] then
+    library:LoadConfiguration()
+end
+shared["Novoline"] = Novoline
+
+    end
